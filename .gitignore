@@ -1,0 +1,9 @@
+/bin/
+/.classpath
+/.idea
+/out/
+/.project
+/.README.md.html
+*.iml
+/ludii.trl
+/ludii_preferences.json
