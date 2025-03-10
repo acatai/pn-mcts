@@ -157,14 +157,14 @@ public class PNSMCTS_L2 extends AI {
                 current = current.parent;
             }
             // if proofNum of root changed -> check is proven or disproven
-            if (changed) {
-                for (Node child : root.children) {
+            // if (changed) {
+                // for (Node child : root.children) {
                     // if root is proven -> stop searching
-                    if (child.proofNum == 0) {
-                        return finalMoveSelection(root);
-                    }
-                }
-            }
+                    // if (child.proofNum == 0) { // causes problems with robust child final move selection
+                    //     return finalMoveSelection(root);
+                    // }
+                // }
+            // }
 
             // Increment iteration count
             ++numIterations;
